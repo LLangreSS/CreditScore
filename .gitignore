@@ -1,6 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
+
+# Python / Virtual Environment
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .venv/
+venv/
+env/
+
+# Testing & Coverage
 .pytest_cache/
-.streamlit/secrets.toml
+.coverage
+htmlcov/
+
+# Data
 data/*.csv
+!data/README.md
